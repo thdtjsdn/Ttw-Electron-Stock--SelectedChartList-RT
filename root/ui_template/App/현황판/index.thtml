@@ -76,7 +76,12 @@
 
 		<div class="ui tiny form" style="width: 790px; height: 60px;">
 			<div class="field">
-				<div class="four fields">
+				<div class="six fields">
+
+					<div class="field">
+						<label>종목 추가(이름 정확히)</label>
+						<input id="input-stock_name" type="text" placeholder="이름은 완벽하게 적어야한다.">
+					</div>
 
 					<div class="field">
 						<label>차트 종류 선택</label>
