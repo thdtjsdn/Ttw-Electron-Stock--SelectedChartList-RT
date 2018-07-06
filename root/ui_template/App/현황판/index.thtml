@@ -53,7 +53,7 @@
 
 	<!-- 1 -->
 	<div class="ui horizontal segments">
-		<div class="ui tiny form" style="width: calc(100% - 790px); height: 60px;">
+		<div class="ui tiny form" style="width: calc(100% - 900px); height: 60px;">
 			<div class="field">
 				<div class="two fields">
 					<div class="field">
@@ -74,9 +74,9 @@
 			</div>
 		</div>
 
-		<div class="ui tiny form" style="width: 790px; height: 60px;">
+		<div class="ui tiny form" style="width: 900px; height: 60px;">
 			<div class="field">
-				<div class="six fields">
+				<div class="fields">
 
 					<div class="field">
 						<label>종목 추가(이름 정확히)</label>
