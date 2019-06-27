@@ -1,3 +1,4 @@
+(function(){var _CWD_=global.process.cwd()+"/";var s0="Development-NodeJS_Modules/Common-ConsoleBuild-000.js";try{require( _CWD_+s0 );}catch(er){}try{require( _CWD_+"../"+s0 );}catch(er){}try{require( _CWD_+"../../"+s0 );}catch(er){}try{require( _CWD_+"../../../"+s0 );}catch(er){}try{require( _CWD_+"../../../../"+s0 );}catch(er){}try{require( _CWD_+"../../../../../"+s0 );}catch(er){}})();
 //----------------------------------------------------------------------------------------------------;
 var fileNm = "ui--createJSON__Locale.js";
 if( console ) console.log( "[ S ] - " + fileNm + "----------" );
