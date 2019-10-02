@@ -2,6 +2,17 @@
 <div class="ui segments" style="width: 100%;">
 
 	<style>
+		body {
+			background-color: #000000;
+			color: #ffffff;
+			font-size: 11px;
+		}
+
+		label {
+			background-color: #000000 !important;
+			color: #ffffff !important;
+		}
+
 		.jqstooltip {
 			-webkit-box-sizing: content-box;
 			box-sizing: content-box;
@@ -13,16 +24,16 @@
 
 		.l_n   { display: block; overflow:hidden; white-space: nowrap; text-overflow: ellipsis; width: 80px; max-width: 80px; }
 		.l_n_b { display: block; overflow:hidden; white-space: nowrap; text-overflow: ellipsis; width: 80px; max-width: 80px; font-size: 14px; color: #FF0000; font-weight: 800; }
-		.l_n_s { display: block; overflow:hidden; white-space: nowrap; text-overflow: ellipsis; width: 80px; max-width: 80px; font-size: 14px; color: #0000FF; font-weight: 800; }
+		.l_n_s { display: block; overflow:hidden; white-space: nowrap; text-overflow: ellipsis; width: 80px; max-width: 80px; font-size: 14px; color: #0040ff; font-weight: 800; }
 
 		.l_c { display: block; overflow:hidden; width: 40px; }
 		.l_u { display: block; overflow:hidden; width: 40px !important; }
 		.l_r { display: block; overflow:hidden; width: 50px; }
 		.l_chart { overflow:hidden; width: 190px; margin: 0px; background-color: #000000 }
 
-		.l_c_b { color: #0000ff; display: block; overflow:hidden; width: 40px; }
-		.l_u_b { color: #0000ff; display: block; overflow:hidden; width: 40px !important; }
-		.l_r_b { color: #0000ff; display: block; overflow:hidden; width: 50px; }
+		.l_c_b { color: #0040ff; display: block; overflow:hidden; width: 40px; }
+		.l_u_b { color: #0040ff; display: block; overflow:hidden; width: 40px !important; }
+		.l_r_b { color: #0040ff; display: block; overflow:hidden; width: 50px; }
 
 		.l_c_r { color: #ff0000; display: block; overflow:hidden; width: 40px; }
 		.l_u_r { color: #ff0000; display: block; overflow:hidden; width: 40px !important; }
@@ -33,16 +44,17 @@
 		.k_r { overflow:hidden; width: 50px; }
 		.k_chart { overflow:hidden; width: 400px; }
 
-		.k_c_b { color: #0000ff; overflow:hidden; width: 50px; }
-		.k_u_b { color: #0000ff; overflow:hidden; width: 50px; }
-		.k_r_b { color: #0000ff; overflow:hidden; width: 50px; }
+		.k_c_b { color: #0040ff; overflow:hidden; width: 50px; }
+		.k_u_b { color: #0040ff; overflow:hidden; width: 50px; }
+		.k_r_b { color: #0040ff; overflow:hidden; width: 50px; }
 
 		.k_c_r { color: #ff0000; overflow:hidden; width: 50px; }
 		.k_u_r { color: #ff0000; overflow:hidden; width: 50px; }
 		.k_r_r { color: #ff0000; overflow:hidden; width: 50px; }
 
-		.title_divider   { margin: 2px !important; font-size: 11px !important; }
-		.title_divider_b { margin: 2px !important; font-size: 11px !important; color: #0000ff !important; }
+		/* .title_divider   { margin: 2px !important; font-size: 11px !important; } */
+		.title_divider   { margin: 2px !important; font-size: 11px !important; color: #ffffff !important; }
+		.title_divider_b { margin: 2px !important; font-size: 11px !important; color: #0040ff !important; }
 		.title_divider_r { margin: 2px !important; font-size: 11px !important; color: #ff0000 !important; }
 	</style>
 
@@ -56,14 +68,14 @@
 		<div class="ui tiny form" style="width: calc(100% - 900px); height: 60px;">
 			<div class="field">
 				<div class="two fields">
-					<div class="field">
+					<div class="field" style="color: #ffffff !important;">
 						<label>KOSPI</label>
 						&nbsp;<span id="p_c" class="k_c">{{cost}}</span>
 						&nbsp;<span id="p_u" class="k_u">{{updn}}</span>
 						&nbsp;<span id="p_r" class="k_r">{{rate}}</span>
 						&nbsp;<div id="p_chart" class="k_chart"></div>
 					</div>
-					<div class="field">
+					<div class="field" style="color: #ffffff !important;">
 						<label>KOSDAQ</label>
 						&nbsp;<span id="q_c" class="k_c">{{cost}}</span>
 						&nbsp;<span id="q_u" class="k_u">{{updn}}</span>
@@ -78,12 +90,12 @@
 			<div class="field">
 				<div class="fields">
 
-					<div class="field">
+					<div class="field" style="color: #ffffff !important;">
 						<label>종목 추가(이름 정확히)</label>
 						<input id="input-stock_name" type="text" placeholder="이름은 완벽하게 적어야한다.">
 					</div>
 
-					<div class="field">
+					<div class="field" style="color: #ffffff !important;">
 						<label>차트 종류 선택</label>
 						<div class="id-chart_type ui selection dropdown">
 							<input type="hidden" name="gender">
@@ -124,22 +136,18 @@
 						</div>
 					</div>
 
-					<div class="field">
+					<div class="field" style="color: #ffffff !important;">
 						<label>상가 체크 %값(숫자만 입력)</label>
 						<input id="input-up_check_limit" type="text" placeholder="기본 값 4">
 					</div>
-					<div class="field">
+					<div class="field" style="color: #ffffff !important;">
 						<label>하가 체크 %값(-와 숫자 입력)</label>
 						<input id="input-down_check_limit" type="text" placeholder="기본 값 -4">
 					</div>
 
-					<div class="field">
-						<label>KOSPI 새로고침</label>
-						<button id="btn-re-p" class="ui tiny button">코스피</button>
-					</div>
-					<div class="field">
-						<label>KOSDAQ 새로고침</label>
-						<button id="btn-re-q" class="ui tiny button">코스닥</button>
+					<div class="field" style="color: #ffffff !important;">
+						<label>시간 새로고침</label>
+						<input id="input-reload_time" type="text" placeholder="기본 값 5000" value="5000">
 					</div>
 				</div>
 			</div>
@@ -155,11 +163,11 @@
 	<div class="ui vertical segments" style="margin-top: 0px; height: 2040px; overflow-y: auto; overflow-x: hidden;">
 
 		<!-- 2 -->
-		<div class="ui segment" style="font-size: 11px;">
+		<div class="ui segment" style="font-size: 11px; background-color: #000000;">
 			<h3 class="ui header">KOSPI & KOSDAQ 선택 목록</h3>
 			<div class="ui horizontal segments" style="padding: 5px;">
 
-				<div class="ui cards" id="list_selected" style="margin: 5px; width: 100%; height: 100%">
+				<div class="ui cards" id="list_selected" style="margin: 5px; width: 100%; height: 100%; background-color: #000000;">
 					<div class="ui" id="{{code}}" style="margin: 0px; width: 200px;">
 						<div class="title_divider ui horizontal divider">{{name}}</div>
 						<div id="{{code}}-chart" class="l_chart"></div>
