@@ -214,4 +214,4 @@ index.bat
 index.exe
 index.test.js
 
-index.js
+**/index.js
