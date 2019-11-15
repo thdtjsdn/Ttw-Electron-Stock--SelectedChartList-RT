@@ -6,11 +6,20 @@
 			background-color: #000000;
 			color: #ffffff;
 			font-size: 11px;
+			height: 100%;
 		}
 
 		label {
 			background-color: #000000 !important;
 			color: #ffffff !important;
+		}
+
+		.divContainer {
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			right: 0px;
+			bottom: 0px;
 		}
 
 		.jqstooltip {
