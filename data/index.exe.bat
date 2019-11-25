@@ -1,0 +1,4 @@
+cd ..
+index.exe
+
+exit
