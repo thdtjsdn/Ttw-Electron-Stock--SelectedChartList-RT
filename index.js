@@ -6,5 +6,6 @@ require( "../Development-NodeJS_Modules/Common-Electron-000-Tool.js" );
  */
 global.initialized = function()
 {
-	global.Lib.Ttw.importTll( "./native_modules/index.tll" );
+	//global.Lib.Ttw.importTll( "./native_modules/index.tll" );
+	global.win.webContents.executeJavaScript( 'window.initialize();' );
 };
