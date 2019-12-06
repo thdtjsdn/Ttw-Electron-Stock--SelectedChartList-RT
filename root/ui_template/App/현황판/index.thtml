@@ -48,6 +48,10 @@
 		.l_u_r { color: #ff0000; display: block; overflow:hidden; width: 40px !important; }
 		.l_r_r { color: #ff0000; display: block; overflow:hidden; width: 50px; }
 
+		.l_c_r_u { color: #ff6161; display: block; overflow:hidden; width: 40px; }
+		.l_u_r_u { color: #ff6161; display: block; overflow:hidden; width: 40px !important; }
+		.l_r_r_u { color: #ff6161; display: block; overflow:hidden; width: 50px; }
+
 		.k_c { overflow:hidden; width: 50px; }
 		.k_u { overflow:hidden; width: 50px; }
 		.k_r { overflow:hidden; width: 50px; }
