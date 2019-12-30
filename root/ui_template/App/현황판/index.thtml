@@ -48,7 +48,7 @@
 		.l_c_r { color: #ff584d; display: block; overflow:hidden; width: 65px; }
 		.l_u_r { color: #ff584d; display: block; overflow:hidden; width: 40px !important; }
 		.l_r_r { color: #ff584d; display: block; overflow:hidden; width: 40px; }
-		.l_r_rr { color: #ff872b; display: block; overflow:hidden; width: 40px; }
+		.l_r_rr { color: #ffbb54; display: block; overflow:hidden; width: 40px; }
 
 		.l_c_r_u { color: #fff066; display: block; overflow:hidden; width: 65px; }
 		.l_u_r_u { color: #fff066; display: block; overflow:hidden; width: 40px !important; }
@@ -72,6 +72,11 @@
 		.title_divider_b { margin: 2px !important; font-size: 11px !important; color: #2c79f5 !important; }
 		.title_divider_r { margin: 2px !important; font-size: 11px !important; color: #ff584d !important; }
 	</style>
+
+	<!-- 1 -->
+	<audio id="ID-AUDIO" controls style="display: none;">
+		<source id="ID-AUDIO-00" src="./ui/App/현황판/audio-00.wav" type="audio/wav">
+	</audio>
 
 	<!-- 1 -->
 	<div id="root-grid">
@@ -104,6 +109,11 @@
 		<div class="ui tiny form" style="width: 900px; height: 60px;">
 			<div class="field">
 				<div class="fields">
+
+					<div class="field" style="color: #ffffff !important;">
+						<label>알람</label>
+						<input id="input-audio" type="checkbox" checked>
+					</div>
 
 					<div class="field" style="color: #ffffff !important;">
 						<label>종목 추가(이름 정확히)</label>
