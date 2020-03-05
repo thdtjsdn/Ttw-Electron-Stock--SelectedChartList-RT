@@ -123,6 +123,8 @@ data/list.json
 data/list*.json
 data/list-all.json
 
+data/__Backup - List/***
+
 data/Backup/***
 data/Backup_개별/***
 data/Backup_개별_정제/***
