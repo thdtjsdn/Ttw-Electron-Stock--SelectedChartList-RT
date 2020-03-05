@@ -78,6 +78,30 @@
 		<source id="ID-AUDIO-00" src="./ui/App/현황판/audio-00.wav" type="audio/wav">
 	</audio>
 
+	<audio id="ID-AUDIO-01" controls style="display: none;">
+		<source id="ID-AUDIO-01-00" src="./ui/App/현황판/audio-01_00.wav" type="audio/wav">
+	</audio>
+
+	<audio id="ID-AUDIO-STOCK-UP" controls style="display: none;">
+		<source id="ID-AUDIO-STOCK-UP-00" src="./mp3/상승.mp3" type="audio/wav">
+	</audio>
+
+	<audio id="ID-AUDIO-STOCK-DO" controls style="display: none;">
+		<source id="ID-AUDIO-STOCK-DO-00" src="./mp3/하락.mp3" type="audio/wav">
+	</audio>
+
+	<audio id="ID-AUDIO-STOCK-NM-00" controls style="display: none;">
+		<source id="ID-AUDIO-STOCK-NM-00-00" src="./ui/App/현황판/" type="audio/mpeg">
+	</audio>
+
+	<audio id="ID-AUDIO-STOCK-NM-01" controls style="display: none;">
+		<source id="ID-AUDIO-STOCK-NM-01-00" src="./ui/App/현황판/" type="audio/mpeg">
+	</audio>
+
+	<audio id="ID-AUDIO-STOCK-NM-02" controls style="display: none;">
+		<source id="ID-AUDIO-STOCK-NM-02-00" src="./ui/App/현황판/" type="audio/mpeg">
+	</audio>
+
 	<!-- 1 -->
 	<div id="root-grid">
 		<div style="width: calc(100% - 2px) !important;"></div>
